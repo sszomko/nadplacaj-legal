@@ -8,7 +8,7 @@
   <link rel="icon" href="/icons/ic_brand_logo.png">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home_app_logo" />
-  <title>ShomCoLabs</title>
+  <title>ShomCoLabs | Nadpłacaj | Privacy Policy</title>
   <style>
     :root {
       --bg: #070b16;
@@ -270,37 +270,6 @@
       margin-bottom: 18px;
     }
 
-
-
-    .buycoffee-box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /* wyśrodkowanie poziome */
-      justify-content: center;
-      text-align: center;
-      gap: 16px;
-      /* odstęp między elementami */
-      padding: 24px;
-    }
-
-    .buycoffee-box img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    /* QR */
-    .buy_coffee_logo {
-      max-width: 180px;
-      border-radius: 12px;
-    }
-
-    /* przycisk */
-    .buycoffee-box a img {
-      width: 166px;
-      height: 43px;
-    }
-
     h1 {
       margin: 0 0 16px;
       font-size: clamp(2rem, 5vw, 3.8rem);
@@ -325,146 +294,6 @@
       font-size: .98rem;
     }
 
-    .cta-row {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 26px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      min-height: 46px;
-      padding: 0 18px;
-      border-radius: 14px;
-      font-size: .9rem;
-      border: 1px solid rgba(255, 255, 255, .08);
-      transition: .2s ease;
-    }
-
-    .btn-primary {
-      color: #081225;
-      background: linear-gradient(135deg, #7fa7ff, #4FD1C5);
-      border: none;
-    }
-
-    .btn-secondary {
-      color: var(--text);
-      background: rgba(255, 255, 255, .03);
-    }
-
-    .hero-side {
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-
-    .about-card,
-    .banner,
-    .product-card {
-      padding: 24px;
-    }
-
-    .about-card h2,
-    .banner h2,
-    .product-card h2 {
-      margin: 0 0 12px;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-
-    .product-list {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 14px;
-    }
-
-    .product-item {
-      padding: 16px;
-      border-radius: 16px;
-      background: rgba(255, 255, 255, .035);
-      border: 1px solid rgba(255, 255, 255, .07);
-    }
-
-    .product-item small {
-      display: block;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    .product-item strong {
-      display: block;
-      margin-bottom: 10px;
-      font-size: 1rem;
-    }
-
-    .product-links {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .product-links a {
-      color: #bfd4ff;
-      font-size: .84rem;
-    }
-
-    .legal-wrap {
-      padding: 18px 0 60px;
-    }
-
-    .legal-layout {
-      display: grid;
-      grid-template-columns: 270px 1fr;
-      gap: 24px;
-    }
-
-    .legal-sidebar {
-      position: sticky;
-      top: 96px;
-      align-self: start;
-      padding: 18px;
-    }
-
-    .legal-sidebar h2 {
-      margin: 0 0 14px;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-    }
-
-    .legal-sidebar p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.8;
-      font-size: .92rem;
-    }
-
-    .legal-links {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .legal-main {
-      padding: 30px;
-    }
-
-    .legal-title {
-      margin: 0 0 18px 0;
-      font-size: 2rem;
-      line-height: 1.1;
-      letter-spacing: -.04em;
-      text-transform: uppercase;
-      color: #f7f9ff;
-    }
-
     .legal-doc p,
     .legal-doc li {
       color: var(--muted);
@@ -483,31 +312,6 @@
     .legal-doc a {
       color: #8db2ff;
       text-decoration: underline;
-    }
-
-    .section-separator {
-      height: 1px;
-      background: rgba(255, 255, 255, .08);
-      margin: 28px 0;
-    }
-
-    .footer {
-      padding: 22px 0 40px;
-      color: var(--muted);
-      font-size: .8rem;
-    }
-
-    .footer-inner {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      border-top: 1px solid rgba(255, 255, 255, .07);
-      padding-top: 18px;
-    }
-
-    .code-tag {
-      color: var(--teal);
     }
 
     [data-lang] {
@@ -539,29 +343,14 @@
     }
 
     @media (max-width: 980px) {
-
-      .hero-grid,
-      .legal-layout {
+      .hero-grid {
         grid-template-columns: 1fr;
-      }
-
-      .legal-sidebar {
-        position: static;
       }
     }
 
     @media (max-width: 680px) {
-
-      .hero-copy,
-      .about-card,
-      .banner,
-      .product-card,
-      .legal-main {
+      .hero-copy {
         padding: 22px;
-      }
-
-      .product-list {
-        grid-template-columns: 1fr;
       }
 
       .nav {
@@ -584,9 +373,8 @@
       </a>
 
       <div class="nav-links">
-        <button class="menu-button" type="Home">
-          <a data-lang-inline="pl" class="material-symbols-outlined" href="/">home_app_logo</a>
-          <a data-lang-inline="en" class="material-symbols-outlined" href="/">home_app_logo</a>
+        <button class="menu-button" type="button" onclick="window.location.href='/'">
+          <span class="material-symbols-outlined">home_app_logo</span>
         </button>
 
         <div class="dropdown">
@@ -620,7 +408,7 @@
 
   <section class="hero">
     <div class="container hero-grid">
-      <div class="panel hero-copy">
+      <div class="panel hero-copy legal-doc">
         <div class="kicker">
           <span data-lang-inline="pl">SHOMCOLABS</span>
           <span data-lang-inline="en">SHOMCOLABS</span>
@@ -628,153 +416,143 @@
 
         <div data-lang="pl">
           <h3><strong>Polityka prywatności</strong></h3>
-          <p>Niniejsza polityka prywatności dotyczy aplikacji Nadpłacaj (dalej zwanej „Aplikacją”) na urządzenia
-            mobilne, która została stworzona przez Sebastiana Szomko (dalej zwanego „Usługodawcą”) jako usługa wspierana
-            reklamami. Usługa ta jest świadczona w formie "AS IS".</p>
+          <p>Niniejsza polityka prywatności dotyczy aplikacji Nadpłacaj (dalej zwanej „Aplikacją”) na urządzenia mobilne, która została stworzona przez Sebastiana Szomko (dalej zwanego „Usługodawcą”) jako usługa wspierana reklamami. Usługa ta jest świadczona w formie „AS IS”.</p>
 
           <h3><strong>Zbieranie i wykorzystywanie informacji</strong></h3>
-          <p>Aplikacja zbiera informacje podczas jej pobierania i użytkowania. Informacje te mogą obejmować między
-            innymi:</p>
-          <p>Dane finansowe wprowadzane przez użytkownika w Aplikacji, takie jak szczegóły kredytu, wpisy dotyczące
-            spłat oraz kalkulacje nadpłat, są przechowywane lokalnie na urządzeniu użytkownika i nie są przesyłane na
-            serwery Usługodawcy.</p>
+          <p>Aplikacja nie przechowuje danych użytkownika na serwerach Usługodawcy.</p>
+          <p>Dane finansowe wprowadzane przez użytkownika w Aplikacji, takie jak szczegóły kredytu, wpisy dotyczące spłat oraz kalkulacje nadpłat, są przechowywane lokalnie na urządzeniu użytkownika i nie są przesyłane na serwery Usługodawcy.</p>
+          <p>Aplikacja może jednak korzystać z usług zewnętrznych, które automatycznie zbierają określone dane techniczne i diagnostyczne podczas pobierania i użytkowania Aplikacji.</p>
 
           <ul>
             <li>Adres protokołu internetowego urządzenia (np. adres IP)</li>
-            <li>Strony Aplikacji, które odwiedzasz, data i godzina wizyty oraz czas spędzony na tych stronach</li>
-            <li>Łączny czas korzystania z Aplikacji</li>
-            <li>System operacyjny używany na urządzeniu mobilnym</li>
+            <li>Informacje o urządzeniu i systemie operacyjnym</li>
+            <li>Identyfikatory reklamowe</li>
+            <li>Informacje o sposobie korzystania z Aplikacji, takie jak odwiedzane ekrany, czas i data wizyty oraz czas korzystania z Aplikacji</li>
+            <li>Dane diagnostyczne, takie jak raporty o błędach i awariach</li>
           </ul>
 
-          <p>Aplikacja nie zbiera dokładnych informacji o lokalizacji Twojego urządzenia mobilnego. Aplikacja nie
-            wykorzystuje technologii sztucznej inteligencji (AI) do przetwarzania danych ani świadczenia funkcji.</p>
+          <p>Aplikacja nie zbiera dokładnych informacji o lokalizacji Twojego urządzenia mobilnego.</p>
+          <p>Aplikacja nie wykorzystuje technologii sztucznej inteligencji (AI) do przetwarzania danych ani świadczenia funkcji.</p>
 
           <h3><strong>Dostęp podmiotów trzecich</strong></h3>
-          <p>Jedynie zagregowane, zanonimizowane dane są okresowo przekazywane do zewnętrznych usług w celu wsparcia
-            Usługodawcy w ulepszaniu Aplikacji oraz świadczonych usług. Usługodawca może udostępniać Twoje informacje
-            podmiotom trzecim w sposób opisany w niniejszej polityce prywatności.</p>
+          <p>Aplikacja korzysta z usług podmiotów trzecich w celu wyświetlania reklam, analizy korzystania z Aplikacji oraz poprawy jej stabilności i jakości działania. Podmioty te mogą przetwarzać dane zgodnie z własnymi politykami prywatności.</p>
 
           <ul>
-            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play
-                Services</a></li>
-            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank"
-                rel="noopener noreferrer">AdMob</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google
-                Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy/" target="_blank"
-                rel="noopener noreferrer">Firebase Crashlytics</a></li>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+            <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
           </ul>
 
+          <h3><strong>Reklamy</strong></h3>
+          <p>Aplikacja wyświetla reklamy za pomocą Google AdMob. Reklamy mogą być spersonalizowane lub niespersonalizowane, w zależności od ustawień użytkownika, regionu oraz dostępnych mechanizmów zgody.</p>
+
+          <h3><strong>Podstawa i cel przetwarzania</strong></h3>
+          <p>Dane techniczne i diagnostyczne są wykorzystywane w celu zapewnienia działania Aplikacji, analizy korzystania z niej, poprawy jakości usług oraz wyświetlania reklam. W odpowiednich przypadkach przetwarzanie może opierać się na uzasadnionym interesie Usługodawcy lub na zgodzie użytkownika wymaganej przez obowiązujące przepisy.</p>
+
           <h3><strong>Prawo do rezygnacji (Opt-Out)</strong></h3>
-          <p>Możesz w każdej chwili zatrzymać zbieranie danych przez Aplikację poprzez jej odinstalowanie.</p>
+          <p>Możesz w każdej chwili zatrzymać dalsze zbieranie danych przez Aplikację poprzez jej odinstalowanie.</p>
 
           <h3><strong>Polityka przechowywania danych</strong></h3>
-          <p>Usługodawca będzie przechowywać dane przekazane przez użytkownika tak długo, jak korzystasz z Aplikacji,
-            oraz przez rozsądny okres po tym czasie. Jeśli chcesz, aby dane przekazane przez Ciebie za pośrednictwem
-            Aplikacji zostały usunięte, skontaktuj się pod adresem privacy@shomcolabs.com, a Usługodawca odpowie w
-            rozsądnym czasie.</p>
+          <p>Dane finansowe wprowadzane przez użytkownika są przechowywane lokalnie na urządzeniu użytkownika, zgodnie z ustawieniami urządzenia i systemu operacyjnego.</p>
+          <p>Dane zbierane przez zewnętrzne usługi, takie jak Google Play Services, AdMob, Google Analytics for Firebase i Firebase Crashlytics, są przechowywane zgodnie z politykami tych dostawców.</p>
+          <p>W zależności od ustawień systemu Android część danych aplikacji może być objęta mechanizmami kopii zapasowej systemu.</p>
 
           <h3><strong>Dzieci</strong></h3>
-          <p>Usługodawca nie wykorzystuje Aplikacji do świadomego zbierania danych ani kierowania działań marketingowych
-            do dzieci poniżej 13 roku życia.</p>
+          <p>Usługodawca nie wykorzystuje Aplikacji do świadomego zbierania danych ani kierowania działań marketingowych do dzieci poniżej 13 roku życia.</p>
 
           <h3><strong>Bezpieczeństwo</strong></h3>
-          <p>Usługodawca dokłada wszelkich starań, aby zapewnić poufność Twoich danych.</p>
+          <p>Usługodawca dokłada rozsądnych starań, aby zapewnić bezpieczeństwo i poufność danych przetwarzanych w ramach Aplikacji.</p>
 
           <h3><strong>Zmiany</strong></h3>
-          <p>Niniejsza polityka prywatności obowiązuje od dnia 2026-03-20.</p>
+          <p>Niniejsza polityka prywatności może być okresowo aktualizowana. Niniejsza wersja obowiązuje od dnia 2026-03-20.</p>
 
           <h3><strong>Kontakt</strong></h3>
-          <p>Jeśli masz jakiekolwiek pytania dotyczące prywatności podczas korzystania z Aplikacji lub praktyk
-            związanych z danymi, skontaktuj się z Usługodawcą pod adresem email: privacy@shomcolabs.com.</p>
+          <p>Jeśli masz jakiekolwiek pytania dotyczące prywatności podczas korzystania z Aplikacji lub praktyk związanych z danymi, skontaktuj się z Usługodawcą pod adresem email: privacy@shomcolabs.com.</p>
         </div>
 
         <div data-lang="en">
-
           <h3><strong>Privacy Policy</strong></h3>
-          <p>This privacy policy applies to the Nadpłacaj app (hereby referred to as "Application") for mobile devices
-            that was created by Sebastian Szomko (hereby referred to as "Service Provider") as an Ad Supported service.
-            This service is intended for use "AS IS".</p>
+          <p>This privacy policy applies to the Nadpłacaj app (hereby referred to as the “Application”) for mobile devices that was created by Sebastian Szomko (hereby referred to as the “Service Provider”) as an ad-supported service. This service is intended for use “AS IS”.</p>
 
           <h3><strong>Information Collection and Use</strong></h3>
-          <p>The Application collects information when you download and use it. This information may include information
-            such as:</p>
-          <p>Financial data entered by the user in the Application, such as loan details, repayment entries, and
-            overpayment calculations, is stored locally on the user's device and is not transmitted to the Service
-            Provider's servers.</p>
+          <p>The Application does not store user data on the Service Provider’s own servers.</p>
+          <p>Financial data entered by the user in the Application, such as loan details, repayment entries, and overpayment calculations, is stored locally on the user’s device and is not transmitted to the Service Provider’s servers.</p>
+          <p>However, the Application may use third-party services that automatically collect certain technical and diagnostic data when you download and use the Application.</p>
+
           <ul>
-            <li>Your device's Internet Protocol address (e.g. IP address)</li>
-            <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those
-              pages</li>
-            <li>The time spent on the Application</li>
-            <li>The operating system you use on your mobile device</li>
+            <li>Your device’s Internet Protocol address (e.g. IP address)</li>
+            <li>Information about your device and operating system</li>
+            <li>Advertising identifiers</li>
+            <li>Information about how the Application is used, such as visited screens, date and time of use, and time spent in the Application</li>
+            <li>Diagnostic data such as error and crash reports</li>
           </ul>
+
           <p>The Application does not gather precise information about the location of your mobile device.</p>
-          <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or provide
-            features.</p>
+          <p>The Application does not use Artificial Intelligence (AI) technologies to process your data or provide features.</p>
 
           <h3><strong>Third Party Access</strong></h3>
-          <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service
-            Provider in improving the Application and their service. The Service Provider may share your information
-            with third parties in the ways that are described in this privacy statement.</p>
+          <p>The Application uses third-party services to display ads, analyze Application usage, and improve stability and performance. These third parties may process data according to their own privacy policies.</p>
+
           <ul>
-            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play
-                Services</a></li>
-            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank"
-                rel="noopener noreferrer">AdMob</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google
-                Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy/" target="_blank"
-                rel="noopener noreferrer">Firebase Crashlytics</a></li>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+            <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
           </ul>
 
+          <h3><strong>Advertising</strong></h3>
+          <p>The Application displays ads using Google AdMob. Ads may be personalized or non-personalized depending on the user’s settings, region, and applicable consent mechanisms.</p>
+
+          <h3><strong>Legal Basis and Purpose of Processing</strong></h3>
+          <p>Technical and diagnostic data is used to operate the Application, analyze its usage, improve service quality, and display advertisements. Where applicable, such processing may rely on the Service Provider’s legitimate interests or on user consent required under applicable laws.</p>
+
           <h3><strong>Opt-Out Rights</strong></h3>
-          <p>You can stop all collection of information by the Application easily by uninstalling it.</p>
-          <strong>Data Retention Policy</strong>
-          <p>The Service Provider will retain User Provided data for as long as you use the Application and for a
-            reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the
-            Application, please contact them at privacy@shomcolabs.com and they will respond in a reasonable time.</p>
+          <p>You can stop all further collection of information by the Application easily by uninstalling it.</p>
+
+          <h3><strong>Data Retention Policy</strong></h3>
+          <p>Financial data entered by the user is stored locally on the user’s device, subject to the device and operating system settings.</p>
+          <p>Data collected by third-party services such as Google Play Services, AdMob, Google Analytics for Firebase, and Firebase Crashlytics is retained according to those providers’ own policies.</p>
+          <p>Depending on Android system settings, some app data may also be included in system backup mechanisms.</p>
 
           <h3><strong>Children</strong></h3>
-          <p>The Service Provider does not use the Application to knowingly solicit data from or market to children
-            under the age of 13.</p>
+          <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
 
           <h3><strong>Security</strong></h3>
-          <p>The Service Provider is concerned about safeguarding the confidentiality of your information.</p>
+          <p>The Service Provider takes reasonable steps to safeguard the confidentiality and security of data processed through the Application.</p>
 
           <h3><strong>Changes</strong></h3>
-          <p>This privacy policy is effective as of 2026-03-20.</p>
+          <p>This privacy policy may be updated from time to time. This version is effective as of 2026-03-20.</p>
 
           <h3><strong>Contact Us</strong></h3>
-          <p>If you have any questions regarding privacy while using the Application, or have questions about the
-            practices, please contact the Service Provider via email at privacy@shomcolabs.com.</p>
-
+          <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at privacy@shomcolabs.com.</p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <script>
-        const html = document.documentElement;
-        const btnPl = document.getElementById('lang-pl');
-        const btnEn = document.getElementById('lang-en');
+  <script>
+    const html = document.documentElement;
+    const btnPl = document.getElementById('lang-pl');
+    const btnEn = document.getElementById('lang-en');
 
-        function setLanguage(lang) {
-          html.classList.remove('lang-pl', 'lang-en');
-          html.classList.add('lang-' + lang);
+    function setLanguage(lang) {
+      html.classList.remove('lang-pl', 'lang-en');
+      html.classList.add('lang-' + lang);
 
-          btnPl.classList.toggle('active', lang === 'pl');
-          btnEn.classList.toggle('active', lang === 'en');
+      btnPl.classList.toggle('active', lang === 'pl');
+      btnEn.classList.toggle('active', lang === 'en');
 
-          html.setAttribute('lang', lang);
-          localStorage.setItem('shomcolabs_lang', lang);
-        }
+      html.setAttribute('lang', lang);
+      localStorage.setItem('shomcolabs_lang', lang);
+    }
 
-        const savedLang = localStorage.getItem('shomcolabs_lang') || 'pl';
-        setLanguage(savedLang);
+    const savedLang = localStorage.getItem('shomcolabs_lang') || 'pl';
+    setLanguage(savedLang);
 
-        btnPl.addEventListener('click', () => setLanguage('pl'));
-        btnEn.addEventListener('click', () => setLanguage('en'));
-      </script>
+    btnPl.addEventListener('click', () => setLanguage('pl'));
+    btnEn.addEventListener('click', () => setLanguage('en'));
+  </script>
 
 </body>
-
 </html>
